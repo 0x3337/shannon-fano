@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Shannon Fano</title>
+
+    <link rel="stylesheet" href="./library/styles/style.css">
+  </head>
+
+
+
+  <body>
+    <main>
+      <div class="shannon-fano">
+        <h1>Shannon-Fano Algorithm</h1>
+
+        <div class="input-group">
+          <input class="text" type="text" placeholder="Test me">
+
+          <div class="file">
+            <span class="icon"></span>
+            <input type="file">
+          </div>
+        </div>
+
+        <div class="compress">
+          <table>
+            <tr>
+              <th>Symbol</th>
+              <th>Probability</th>
+              <th>Code</th>
+              <th>Сode Length</th>
+              <th>p<sub>i</sub>q<sub>i</sub></th>
+              <th>-p<sub>i</sub>log<sub>2</sub>p<sub>i</sub></th>
+            </tr>
+          </table>
+          
+          <p class="entropy"></p>
+          <p class="code-optimal">Code optimal: <span></span></p>
+        </div>
+
+        <div class="decompress">
+          <p></p>
+        </div>
+
+        <a class="download">Download</a>
+      </div>  
+    </main>
+
+    <footer>
+      <p>Designed by Mirsaid Patarov</p>
+    </footer>
+
+    <script src="./library/scripts/common.js"></script>
+  </body>
+</html>
